@@ -1,0 +1,7 @@
+{
+  "name": "ordre-bidi-arabe-tests",
+  "private": true,
+  "description": "Tests Node du moteur d'OrdreBidiArabe.jsx (hors Illustrator)",
+  "scripts": { "test": "node test-bidi.js && node test-islands.js && node test-simulation.js" },
+  "devDependencies": { "bidi-js": "1.1.0" }
+}
